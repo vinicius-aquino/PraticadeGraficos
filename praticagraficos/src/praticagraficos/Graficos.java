@@ -20,6 +20,7 @@ public class Graficos extends Canvas implements Runnable{
 	public Graficos() {
 		thread = new Thread(this);
 		thread.start();
+		isRunning = true;
 	}
 	
 	public void tick() {
