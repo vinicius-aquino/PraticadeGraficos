@@ -8,6 +8,7 @@ import javax.imageio.ImageIO;
 public class Desenho {
 	private BufferedImage spritesheet;
 	
+	//pegando o caminho do dir.
 	public Desenho(String path) {
 		try {
 			spritesheet = ImageIO.read(getClass().getResource(path));
